@@ -1,5 +1,4 @@
 "use strict"
-const ExtReloader = require("webpack-ext-reloader")
 const { merge } = require("webpack-merge")
 const ZipWebpackPlugin = require("zip-webpack-plugin")
 
@@ -24,10 +23,6 @@ const config = (_, options) => {
         filename: "build.zip",
       })
     )
-  }
-
-  if (options.mode === "development") {
-    config.plugins.push(new ExtReloader())
   }
 
   return config
