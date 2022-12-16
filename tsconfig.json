@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "CommonJS",
+        "strict": true,
+        "sourceMap": true,
+        "rootDir": "src",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "noUncheckedIndexedAccess": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
