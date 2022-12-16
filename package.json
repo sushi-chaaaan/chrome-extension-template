@@ -38,7 +38,7 @@
     "typesync": "^0.9.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0",
-    "webpack-extension-reloader": "^1.1.4",
+    "webpack-ext-reloader": "^1.1.9",
     "webpack-merge": "^5.8.0",
     "zip-webpack-plugin": "^4.0.1"
   }
